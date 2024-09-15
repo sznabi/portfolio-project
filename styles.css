@@ -160,6 +160,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -332,3 +333,29 @@ article .icon {
     cursor: default;
 }
 
+/* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163,163,163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163,163,163);
+}
